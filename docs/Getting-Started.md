@@ -78,6 +78,8 @@ if (!Intl.RelativeTimeFormat) {
 
 We officially support IE11 along with 2 most recent versions of Edge, Chrome & Firefox.
 
+Note that we ship ES5 and ESM builds. Some build tools pick up the latter by default, which contain syntax that is not supported in some browsers (e.g IE11). See "[ESM artifacts](#esm-build)" for more details.
+
 ### Node.js
 
 #### full-icu
